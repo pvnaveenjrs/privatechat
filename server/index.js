@@ -24,8 +24,8 @@ const httpServer = createServer(app);
 const io = new Server(httpServer,{
   cors: {
     origin: [
-      'https://realtimechatapp-opal.vercel.app',
-      'https://realtimechat-1-gpm1.onrender.com',
+      'https://privatechat-one.vercel.app',
+      'https://privatechat-6uh0.onrender.com',
       'http://localhost:5173'
     ],
     methods: ['GET', 'POST'],
