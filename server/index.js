@@ -40,8 +40,8 @@ connectDB();
 app.use(express.json());
 const corsOptions = {
   origin: [
-    'https://realtimechatapp-opal.vercel.app', // Your Vercel frontend
-    'https://realtimechat-1-gpm1.onrender.com', // Your Render backend
+    'https://privatechat-one.vercel.app', // Your Vercel frontend
+    'https://privatechat-6uh0.onrender.com', // Your Render backend
     'http://localhost:5173' // For local development
   ],
   credentials: true,
